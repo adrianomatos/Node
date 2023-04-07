@@ -1,0 +1,1 @@
+Carregando páginas estáticas (css, imagens, etc)

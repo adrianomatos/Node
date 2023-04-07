@@ -1,0 +1,18 @@
+<h1>Início da página</h1>
+
+{{!--Estrutura de DECISÃO--}}
+{{#if gostandoDeNode}}
+    <p>Que legal</p>
+{{else}}
+    <p>Que pena</p>
+{{/if}}
+
+{{!--Estrutura de REPETIÇÃO--}}
+<table>
+    {{#each dados}}
+    <tr>
+        <td>{{nome}}</td>
+        <td>{{idade}}</td>
+    </tr>
+    {{/each}}
+</table>
